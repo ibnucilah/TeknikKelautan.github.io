@@ -229,6 +229,31 @@ body {
 }
 
 
+/* Ukuran untuk Desktop (Default) */
+.hero-title {
+    font-size: 3.5rem;
+}
+
+.hero-small {
+    font-size: 1.2rem;
+}
+
+/* Ukuran khusus Mobile (Layar di bawah 768px) */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 1.8rem; /* Ukuran judul lebih kecil di HP */
+        line-height: 1.2;
+    }
+    
+    .hero-small {
+        font-size: 0.9rem; /* Ukuran sub-teks lebih kecil di HP */
+    }
+
+    .hero-content {
+        padding-left: 20px !important; /* Mengurangi padding agar teks tidak terlalu ke tengah */
+        padding-right: 20px !important;
+    }
+}
 
 
 
