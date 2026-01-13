@@ -289,6 +289,14 @@ body {
   transform: translateY(-4px);
 }
 
+.view-all-btn {
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+/* Opsional: Jika ingin garis bawah muncul kembali saat mouse mendekat */
+.view-all-btn:hover {
+  text-decoration: underline;
+}
 
 
 
